@@ -34,7 +34,7 @@ namespace Simple.Converter.Test
         [Test]
         public void Test_NoConfigure()
         {
-            var converter = new AutoMapConverter<C1, C2>();
+            var converter = new AutoMapConverter<C1, C3>();
 
             var class1 = new C1 { MappedProperty = "Mapped", UnmappedProperty = "Unmapped" };
             var class2 = converter.Convert(class1);
@@ -54,6 +54,11 @@ namespace Simple.Converter.Test
             public string UnmappedProperty { get; set; }
         }
         private class C2
+        {
+            public string MappedProperty { get; set; }
+            public string DifferentName { get; set; }
+        }
+        private class C3
         {
             public string MappedProperty { get; set; }
             public string DifferentName { get; set; }
