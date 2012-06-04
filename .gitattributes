@@ -9,6 +9,7 @@ Simple.Converter.AutoMapper/Simple.Converter.AutoMapper.csproj -text
 Simple.Converter.AutoMapper/packages.config -text
 Simple.Converter.Test/AutoMapConverterTest.cs -text
 Simple.Converter.Test/ConvertTest.cs -text
+Simple.Converter.Test/EnumerableTest.cs -text
 Simple.Converter.Test/Properties/AssemblyInfo.cs -text
 Simple.Converter.Test/Simple.Converter.Test.csproj -text
 Simple.Converter.Test/packages.config -text
