@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0"?>
 <package>
   <metadata>
-    <id>PPA.Compass.Web</id>
+    <id>Simple.Converter.AutoMapper</id>
     <version>$version$</version>
     <authors>Parametric Portfolio Associates</authors>
     <owners>Parametric Portfolio Associates</owners>
-    <description>Compass.Web</description>
+    <description>Simple.Converter.AutoMapper</description>
     <copyright>Copyright 2012</copyright>
-    <tags>Compass Web</tags>
+    <tags>Simple.Converter.AutoMapper</tags>
     <dependencies>
       <dependency id="Simple.Converter" version="1.0.0" />
     </dependencies>
