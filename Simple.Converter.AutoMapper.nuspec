@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>PPA.Compass.Web</id>
+    <version>$version$</version>
+    <authors>Parametric Portfolio Associates</authors>
+    <owners>Parametric Portfolio Associates</owners>
+    <description>Compass.Web</description>
+    <copyright>Copyright 2012</copyright>
+    <tags>Compass Web</tags>
+    <dependencies>
+      <dependency id="Simple.Converter" version="1.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Simple.Converter.AutoMapper\bin\Release\Simple.Converter.AutoMapper.dll" target="lib\net4" />
+  </files>
+</package>

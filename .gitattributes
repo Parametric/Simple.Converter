@@ -1,4 +1,26 @@
 * text=auto !eol
+.nuget/NuGet.Config -text
+.nuget/NuGet.exe -text
+.nuget/NuGet.targets -text
+/Simple.Converter.AutoMapper.nuspec -text
+Simple.Converter.AutoMapper/AutoMapConverter.cs -text
 Simple.Converter.AutoMapper/Properties/AssemblyInfo.cs -text
 Simple.Converter.AutoMapper/Simple.Converter.AutoMapper.csproj -text
 Simple.Converter.AutoMapper/packages.config -text
+Simple.Converter.Test/AutoMapConverterTest.cs -text
+Simple.Converter.Test/ConvertTest.cs -text
+Simple.Converter.Test/Properties/AssemblyInfo.cs -text
+Simple.Converter.Test/Simple.Converter.Test.csproj -text
+Simple.Converter.Test/packages.config -text
+/Simple.Converter.nuspec -text
+/Simple.Converter.sln -text
+Simple.Converter/ConverterBuilder.cs -text
+Simple.Converter/EnumerableConverterBuilder.cs -text
+Simple.Converter/IConvert.cs -text
+Simple.Converter/IConverterProvider.cs -text
+Simple.Converter/IEnumerableExtensions.cs -text
+Simple.Converter/LambdaConverter.cs -text
+Simple.Converter/Properties/AssemblyInfo.cs -text
+Simple.Converter/Simple.Converter.csproj -text
+Simple.Converter/SimpleConvert.cs -text
+Simple.Converter/packages.config -text

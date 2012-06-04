@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Simple.Converter</id>
+    <version>$version$</version>
+    <authors>Parametric Portfolio Associates</authors>
+    <owners>Parametric Portfolio Associates</owners>
+    <description>Simple.Converter</description>
+    <copyright>Copyright 2012</copyright>
+    <tags>Simple.Converter</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Simple.Converter\bin\Release\Simple.Converter.dll" target="lib\net4" />
+  </files>
+</package>
