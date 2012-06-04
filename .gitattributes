@@ -1,1 +1,4 @@
 * text=auto !eol
+Simple.Converter.AutoMapper/Properties/AssemblyInfo.cs -text
+Simple.Converter.AutoMapper/Simple.Converter.AutoMapper.csproj -text
+Simple.Converter.AutoMapper/packages.config -text
