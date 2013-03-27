@@ -1,7 +1,12 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
 namespace Simple.Converter
 {
-    public interface IConvert<TFrom, TTo>
+    public interface IConvert
     {
-        TTo Convert(TFrom source);
+        ConverterBuilder<T> From<T>(T item);
     }
 }

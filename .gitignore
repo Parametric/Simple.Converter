@@ -5,3 +5,13 @@ Simple.Converter.AutoMapper/[Bb]in
 Simple.Converter.AutoMapper/[Dd]ebug
 Simple.Converter.AutoMapper/[Rr]elease
 Simple.Converter.AutoMapper/obj
+Simple.Converter.Ninject/*.aps
+Simple.Converter.Ninject/*.eto
+Simple.Converter.Ninject/*.user
+Simple.Converter.Ninject/ClientBin
+Simple.Converter.Ninject/GeneratedArtifacts
+Simple.Converter.Ninject/[Bb]in
+Simple.Converter.Ninject/[Dd]ebug
+Simple.Converter.Ninject/[Rr]elease
+Simple.Converter.Ninject/_Pvt_Extensions
+Simple.Converter.Ninject/obj

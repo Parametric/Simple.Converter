@@ -17,7 +17,7 @@ namespace Simple.Converter
         {
             var converter = Provider.Get<TFrom, TTo>();
             if (converter == null)
-                throw new ArgumentOutOfRangeException("TTo", String.Format("No converter of type IConvert<{0},{1}> has been registered, unable to convert", typeof(TFrom).Name, typeof(TTo).Name));
+                throw new ArgumentOutOfRangeException("TTo", String.Format("No converter of type IConverter<{0},{1}> has been registered, unable to convert", typeof(TFrom).Name, typeof(TTo).Name));
             return converter.Convert(Item);
         }
     }

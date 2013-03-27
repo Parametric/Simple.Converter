@@ -1,16 +1,22 @@
-﻿namespace Simple.Converter
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Simple.Converter
 {
-    public static class SimpleConvert
+    public class SimpleConvert : IConvert
     {
-        public static ConverterBuilder<T> From<T>(T value)
+        private readonly IConverterProvider _provider;
+
+        public SimpleConvert(IConverterProvider provider)
         {
-            return new ConverterBuilder<T>(value, ConverterProvider);
+            _provider = provider;
         }
 
-        internal static IConverterProvider ConverterProvider { get; set; }
-        public static void SetProvider(IConverterProvider provider)
+        public ConverterBuilder<T> From<T>(T item)
         {
-            ConverterProvider = provider;
+            return new ConverterBuilder<T>(item, _provider);
         }
     }
 }

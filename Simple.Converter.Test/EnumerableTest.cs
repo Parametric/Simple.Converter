@@ -22,10 +22,10 @@ namespace Simple.Converter.Test
         }
         private class FakeConverterProvider : IConverterProvider
         {
-            public IConvert<TFrom, TTo> Get<TFrom, TTo>()
+            public IConverter<TFrom, TTo> Get<TFrom, TTo>()
             {
                 object o = new LambdaConverter<string, int>(Int32.Parse);
-                return (IConvert<TFrom, TTo>)o;
+                return (IConverter<TFrom, TTo>)o;
 
             }
         }

@@ -15,24 +15,11 @@ namespace Simple.Converter.AutoMapper
     /// </summary>
     /// <typeparam name="TFrom"></typeparam>
     /// <typeparam name="TTo"></typeparam>
-    public class AutoMapConverter<TFrom,TTo> : IConvert<TFrom,TTo>
+    public class AutoMapConverter<TFrom,TTo> : IConverter<TFrom,TTo>
     {
-        
-        public AutoMapConverter() : this(null) { }
-
-        public AutoMapConverter(Action<IMappingExpression<TFrom,TTo>> configureMap)
-        {
-            var map = Mapper.CreateMap<TFrom, TTo>().AfterMap(AfterMap);
-            if (configureMap != null)
-                configureMap(map);
-        }
         public virtual TTo Convert(TFrom source)
         {
-            return Mapper.Map<TFrom, TTo>(source);
-        }
-        public virtual void AfterMap(TFrom from, TTo to)
-        {
-            //noop
+            return Mapper.DynamicMap<TFrom, TTo>(source);
         }
     }
 }

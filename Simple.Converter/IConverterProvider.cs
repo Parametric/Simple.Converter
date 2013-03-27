@@ -2,6 +2,6 @@ namespace Simple.Converter
 {
     public interface IConverterProvider
     {
-        IConvert<TFrom, TTo> Get<TFrom, TTo>();
+        IConverter<TFrom, TTo> Get<TFrom, TTo>();
     }
 }
