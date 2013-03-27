@@ -12,8 +12,8 @@ namespace Simple.Converter.Test
         [Test]
         public void TestConverter()
         {
-            SimpleConvert.SetProvider(new FakeConverterProvider());
-            var result = SimpleConvert.From("1").To<int>();
+            var convert = new SimpleConvert(new FakeConverterProvider());
+            var result = convert.From("1").To<int>();
             Assert.That(result, Is.EqualTo(1));
 
         }
@@ -21,9 +21,16 @@ namespace Simple.Converter.Test
         {
             public IConverter<TFrom, TTo> Get<TFrom, TTo>()
             {
-                object o = new LambdaConverter<string, int>(Int32.Parse);
+                object o = new FakeConverter();
                 return (IConverter<TFrom, TTo>) o;
 
+            }
+        }
+        private class FakeConverter: IConverter<string,int>
+        {
+            public int Convert(string source)
+            {
+                return Int32.Parse(source);
             }
         }
     }

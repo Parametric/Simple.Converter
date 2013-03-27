@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Simple.Converter.AutoMapper</id>
+    <version>$version$</version>
+    <authors>Parametric Portfolio Associates</authors>
+    <owners>Parametric Portfolio Associates</owners>
+    <description>Simple.Converter.AutoMapper</description>
+    <copyright>Copyright 2012</copyright>
+    <tags>Simple.Converter.AutoMapper</tags>
+    <dependencies>
+      <dependency id="Simple.Converter" version="2.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Simple.Converter.Ninject\bin\Release\Simple.Converter.Ninject.dll" target="lib\net4" />
+  </files>
+</package>

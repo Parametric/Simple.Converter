@@ -59,7 +59,6 @@
   <ItemGroup>
     <Compile Include="AutoMapConverterTest.cs" />
     <Compile Include="ConvertTest.cs" />
-    <Compile Include="EnumerableTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
