@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0"?>
 <package>
   <metadata>
-    <id>Simple.Converter.AutoMapper</id>
+    <id>Simple.Converter.Ninject</id>
     <version>$version$</version>
     <authors>Parametric Portfolio Associates</authors>
     <owners>Parametric Portfolio Associates</owners>
-    <description>Simple.Converter.AutoMapper</description>
+    <description>Ninject provider for Simple.Converter</description>
     <copyright>Copyright 2012</copyright>
-    <tags>Simple.Converter.AutoMapper</tags>
+    <tags>Simple.Converter.Ninject</tags>
     <dependencies>
       <dependency id="Simple.Converter" version="2.0.0" />
     </dependencies>
