@@ -7,6 +7,6 @@ namespace Simple.Converter
 {
     public interface IConvert
     {
-        ConverterBuilder<T> From<T>(T item);
+        IConverterBuilder<T> From<T>(T item);
     }
 }

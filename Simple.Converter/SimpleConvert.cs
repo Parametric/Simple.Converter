@@ -14,7 +14,7 @@ namespace Simple.Converter
             _provider = provider;
         }
 
-        public ConverterBuilder<T> From<T>(T item)
+        public IConverterBuilder<T> From<T>(T item)
         {
             return new ConverterBuilder<T>(item, _provider);
         }

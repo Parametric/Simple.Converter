@@ -2,7 +2,7 @@ using System;
 
 namespace Simple.Converter
 {
-    public class ConverterBuilder<TFrom>
+    public class ConverterBuilder<TFrom> : IConverterBuilder<TFrom>
     {
         private IConverterProvider Provider { get; set; }
         private TFrom Item { get; set; }

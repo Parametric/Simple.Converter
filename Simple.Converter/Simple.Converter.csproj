@@ -45,6 +45,7 @@
     <Compile Include="IConvert.cs" />
     <Compile Include="ConverterBuilder.cs" />
     <Compile Include="IConverter.cs" />
+    <Compile Include="IConverterBuilder.cs" />
     <Compile Include="IConverterProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleConvert.cs" />
