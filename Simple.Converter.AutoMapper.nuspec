@@ -10,6 +10,7 @@
     <tags>Simple.Converter.AutoMapper</tags>
     <dependencies>
       <dependency id="Simple.Converter" version="1.0.0" />
+      <dependency id="AutoMapper" version="2.1.267" />
     </dependencies>
   </metadata>
   <files>
